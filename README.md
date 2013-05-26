@@ -8,11 +8,13 @@ The official repository is (https://github.com/stickfigure/jsog-python).
 
 ## Download
 
-TODO: PyPI
+Jsog is available in PyPI:
+
+    $ pip install jsog
 
 ## Usage
 
-This code mimics the standard json python package:
+This code mimics the standard *json* python package:
 
     import jsog
 
