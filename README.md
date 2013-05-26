@@ -29,3 +29,7 @@ It can be used to convert between object graphs directly:
 ## Author
 
 * Jeff Schnitzer (jeff@infohazard.org)
+
+## License
+
+This software is provided under the [MIT license](http://opensource.org/licenses/MIT)
