@@ -40,8 +40,7 @@ def encode(original):
 			if originalId in sofar:
 				return { '@ref': originalId }
 
-			result = sofar[originalId] = {}
-			result['@id'] = originalId
+			result = sofar[originalId] = { '@id': originalId }
 
 			for key, value in original.iteritems():
 				result[key] = doEncode(value)
