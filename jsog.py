@@ -24,11 +24,8 @@ def loads(*args, **kwargs):
 
 
 def encode(original):
-	""""Take a JSON structure with cycles and turn it into a JSOG-encoded structure. Adds
-	@id to every object and replaces duplicate references with @refs.
-
-	Note that this modifies the original objects adding @id fields, then strips
-	out those @id fields leaving the original objects as they started."""
+	""""Take a JSON structure with cycles and turn it into a JSOG-encoded structure. The new structure
+	will have @id on every object and duplicate references will be replaced with @ref."""
 
 	# For every object seen so far, maps stringified id() to the object
 	sofar = {}
@@ -60,7 +57,7 @@ def encode(original):
 	return doEncode(original)
 
 def decode(encoded):
-	""""Take a JSOG-encoded JSON structure and re-link all the references. The return value will
+	""""Take a JSOG-encoded JSON structure and create a new structure which re-links all the references. The return value will
 	not have any @id or @ref fields"""
 	# This works differently from the JavaScript and Ruby versions. Python dicts are unordered, so
 	# we can't be certain to see associated @ids before @refs. Instead we will make two passes,
