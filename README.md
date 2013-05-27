@@ -1,10 +1,10 @@
 # Serializing JavaScript Object Graphs with Python
 
-This Python module serializes and deserializes cyclic object graphs in the [JSOG format](https://github.com/stickfigure/jsog).
+This Python module serializes and deserializes cyclic object graphs in the [JSOG format](https://github.com/jsog/jsog).
 
 ## Source code
 
-The official repository is (https://github.com/stickfigure/jsog-python).
+The official repository is (https://github.com/jsog/jsog-python).
 
 ## Download
 

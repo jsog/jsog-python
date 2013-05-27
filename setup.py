@@ -1,10 +1,10 @@
 from distutils.core import setup
 setup(
 	name='jsog',
-	version='1.0',
+	version='1.0.1',
 	author='Jeff Schnitzer',
 	author_email='jeff@infohazard.org',
-	url='https://github.com/stickfigure/jsog-python',
+	url='https://github.com/jsog/jsog-python',
 	description='JSOG serializer and deserializer',
 	keywords='jsog json',
 	license='MIT License',
