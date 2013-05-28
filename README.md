@@ -1,4 +1,4 @@
-# Serializing JavaScript Object Graphs with Python
+# JavaScript Object Graphs with Python
 
 This Python module serializes and deserializes cyclic object graphs in the [JSOG format](https://github.com/jsog/jsog).
 
